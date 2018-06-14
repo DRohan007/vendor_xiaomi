@@ -485,8 +485,11 @@ PRODUCT_COPY_FILES += \
 # boost framework support libs
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/bin/perfd:$(TARGET_COPY_OUT_VENDOR)/bin/perfd \
     vendor/xiaomi/msm8956-common/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libqti_performance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti_performance.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libqti_performance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti_performance.so \
 
 # Perf
